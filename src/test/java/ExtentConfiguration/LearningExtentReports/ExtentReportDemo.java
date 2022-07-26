@@ -24,6 +24,7 @@ public class ExtentReportDemo {
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester", "Priya Bhagoriya");
+		System.out.println("Testing git changes");
 	}
 	
 	@Test
